@@ -1,6 +1,6 @@
 package Home;
 
-public class LinkedList {
+public class LinkedList <T>  extends LinkedBuilder{
     Node head;
     Node last;
 
