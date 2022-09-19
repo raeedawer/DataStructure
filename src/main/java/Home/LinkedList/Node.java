@@ -1,4 +1,4 @@
-package Home;
+package Home.LinkedList;
 
 public class Node <T>{
 

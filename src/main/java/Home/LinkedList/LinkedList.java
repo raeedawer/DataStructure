@@ -1,6 +1,6 @@
-package Home;
+package Home.LinkedList;
 
-public class LinkedList <T>  extends LinkedBuilder{
+public class LinkedList <T>  extends LinkedBuilder {
     Node head;
     Node last;
 

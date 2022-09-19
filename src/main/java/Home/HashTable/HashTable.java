@@ -1,9 +1,11 @@
-package Home;
+package Home.HashTable;
+
+import Home.LinkedList.LinkedList;
 
 public class HashTable <T>{
     private int key;
     final int index=28;
-    LinkedList []lists=new LinkedList[28];
+    LinkedList[]lists=new LinkedList[28];
     public void add(T t){
         this.key=t.toString().charAt(0)%index;
         if (lists[this.key]==null){
