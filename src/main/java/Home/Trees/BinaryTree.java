@@ -1,6 +1,6 @@
 package Home.Trees;
 
-public class BinaryTree {
+public class BinaryTree implements Tree{
 
 
     Nodet root;
